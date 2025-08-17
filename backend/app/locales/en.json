@@ -1,0 +1,64 @@
+{
+  "common": {
+    "success": "Success",
+    "error": "Error",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "validationError": "Validation error",
+    "internalError": "Internal server error"
+  },
+  "auth": {
+    "loginSuccess": "Login successful",
+    "loginFailed": "Login failed",
+    "registerSuccess": "Registration successful",
+    "registerFailed": "Registration failed",
+    "logoutSuccess": "Logout successful",
+    "invalidCredentials": "Invalid username or password",
+    "userExists": "User already exists",
+    "userNotFound": "User not found",
+    "tokenExpired": "Token has expired",
+    "tokenInvalid": "Invalid token",
+    "passwordChanged": "Password changed successfully",
+    "passwordChangeFailed": "Failed to change password",
+    "profileUpdated": "Profile updated successfully",
+    "profileUpdateFailed": "Failed to update profile",
+    "cannotDeleteSelf": "Cannot delete your own account",
+    "userDeactivated": "User deactivated successfully",
+    "userDeactivationFailed": "Failed to deactivate user",
+    "userActivated": "User activated successfully",
+    "userActivationFailed": "Failed to activate user"
+  },
+  "applications": {
+    "created": "Application created successfully",
+    "updated": "Application updated successfully",
+    "deleted": "Application deleted successfully",
+    "notFound": "Application not found",
+    "limitExceeded": "Maximum number of applications exceeded",
+    "invalidQueryCode": "Invalid query code format"
+  },
+  "notifications": {
+    "statusUpdate": {
+      "subject": "Visa Status Update - {applicantName}",
+      "message": "Hello! The status of {applicantName}'s application has changed from '{oldStatus}' to '{newStatus}'.",
+      "telegram": "🔔 Status Update\n\nApplicant: {applicantName}\nOld Status: {oldStatus}\nNew Status: {newStatus}\nTime: {timestamp}"
+    },
+    "dailySummary": {
+      "subject": "Daily Status Summary",
+      "message": "Here is your daily visa status summary:",
+      "noUpdates": "No status updates today."
+    },
+    "testNotification": {
+      "subject": "Test Notification",
+      "message": "This is a test notification from VisaStatusMonitor."
+    }
+  },
+  "system": {
+    "healthy": "System is healthy",
+    "unhealthy": "System is unhealthy",
+    "schedulerRunning": "Scheduler is running",
+    "schedulerStopped": "Scheduler is stopped",
+    "databaseConnected": "Database connected",
+    "databaseDisconnected": "Database disconnected"
+  }
+}

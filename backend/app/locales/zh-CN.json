@@ -1,0 +1,75 @@
+{
+  "common": {
+    "success": "成功",
+    "error": "错误",
+    "notFound": "未找到",
+    "unauthorized": "未授权",
+    "forbidden": "禁止访问",
+    "validationError": "数据验证失败",
+    "internalError": "服务器内部错误"
+  },
+  "auth": {
+    "loginSuccess": "登录成功",
+    "loginFailed": "登录失败",
+    "registerSuccess": "注册成功",
+    "registerFailed": "注册失败",
+    "logoutSuccess": "退出成功",
+    "invalidCredentials": "用户名或密码错误",
+    "userExists": "用户已存在",
+    "userNotFound": "用户未找到",
+    "tokenExpired": "令牌已过期",
+    "tokenInvalid": "无效令牌",
+    "passwordChanged": "密码修改成功",
+    "passwordChangeFailed": "密码修改失败",
+    "profileUpdated": "个人资料更新成功",
+    "profileUpdateFailed": "个人资料更新失败",
+    "cannotDeleteSelf": "不能删除自己的账户",
+    "userDeactivated": "用户停用成功",
+    "userDeactivationFailed": "用户停用失败",
+    "userActivated": "用户激活成功",
+    "userActivationFailed": "用户激活失败"
+  },
+  "applications": {
+    "created": "申请创建成功",
+    "updated": "申请更新成功",
+    "deleted": "申请删除成功",
+    "notFound": "申请未找到",
+    "limitExceeded": "申请数量已达上限",
+    "invalidQueryCode": "查询码格式无效"
+  },
+  "notifications": {
+    "statusUpdate": {
+      "subject": "签证状态更新 - {applicantName}",
+      "message": "您好！{applicantName} 的申请状态已从 '{oldStatus}' 变更为 '{newStatus}'。",
+      "telegram": "🔔 状态更新\n\n申请人：{applicantName}\n原状态：{oldStatus}\n新状态：{newStatus}\n时间：{timestamp}"
+    },
+    "dailySummary": {
+      "subject": "每日状态摘要",
+      "message": "这是您的每日签证状态摘要：",
+      "noUpdates": "今日无状态更新。"
+    },
+    "testNotification": {
+      "subject": "测试通知",
+      "message": "这是来自 VisaStatusMonitor 的测试通知。"
+    }
+  },
+  "system": {
+    "healthy": "系统运行正常",
+    "unhealthy": "系统运行异常",
+    "schedulerRunning": "调度器运行中",
+    "schedulerStopped": "调度器已停止",
+    "databaseConnected": "数据库已连接",
+    "databaseDisconnected": "数据库连接断开",
+    "countriesLoaded": "支持的国家列表加载成功",
+    "countriesLoadFailed": "加载支持的国家列表失败",
+    "pluginsLoaded": "插件信息加载成功",
+    "pluginsLoadFailed": "加载插件信息失败",
+    "pluginNotFound": "未找到指定国家的插件",
+    "pluginInfoFailed": "获取插件信息失败",
+    "connectionTestSuccess": "插件连接测试成功",
+    "connectionTestFailed": "插件连接测试失败",
+    "connectionTestError": "连接测试过程中发生错误",
+    "statisticsLoaded": "系统统计信息加载成功",
+    "statisticsLoadFailed": "加载系统统计信息失败"
+  }
+}
