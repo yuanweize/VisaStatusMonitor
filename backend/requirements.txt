@@ -23,7 +23,7 @@ email-validator==2.1.0
 
 # HTTP客户端
 httpx==0.25.2
-requests==2.31.0
+requests==2.32.4
 
 # HTML解析
 beautifulsoup4==4.12.2
